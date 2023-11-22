@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thông tin và Sản phẩm Công nghệ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Chia sẻ thông tin và bán sản phẩm</h1>
+
+<form id="techForm" action="process.php" method="post">
+  <label for="name">Tên:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="product">Sản phẩm:</label>
+  <input type="text" id="product" name="product" required><br><br>
+
+  <label for="description">Mô tả:</label><br>
+  <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+  <input type="submit" value="Gửi thông tin">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
